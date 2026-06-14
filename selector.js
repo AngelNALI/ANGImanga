@@ -18,7 +18,7 @@ const mangas = [
     genero: "Acción, Aventura · Shonen",
     puntuacion: "9.6",
     precio: "$170.00",
-    imagen: "images/kimetsu_resultado.jpg"
+    imagen: "images/Dslayer_resultado.jpg"
   },
   {
     titulo: "Attack on Titan",
