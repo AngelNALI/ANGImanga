@@ -76,7 +76,7 @@ const comics = [
     genero: "Accion · comic",
     puntuacion: "9.8",
     precio: "$200.00",
-    imagen: "images/spiderman.jpg"
+    imagen: "images/spiderman_resultado.jpg"
   },
   {
     titulo: "Absolute batman",
