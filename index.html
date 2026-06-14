@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    
+    <title>AngiMANGA</title>
+</head>
+<body>
+    <nav class="menu" id="menu">
+    <div class="menu__logo">
+      
+      <span class="logo-texto">Angi<span class="dos">MANGA</span></span>
+    </div>
+
+   
+    <button class="menu__cel" id="btncel" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="menu__lista">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#mangas">Mangas</a></li>
+      <li><a href="#recomendaciones">Recomendaciones</a></li>
+      <li><a href="#comics">Comics</a></li>
+      <li><a href="#noticias">Noticias</a></li>
+      <li><a href="#soporte">Soporte</a></li>
+    </ul>
+  </nav>
+    <section id="inicio" class="Inicio">
+        <div>
+            <img src="images/logo.png" alt="Logo AngiMANGA" class="logo-inicio">
+            <h2>Bienvenido a AngiMANGA</h2>
+        <p>En AngiMANGA, vivimos y respiramos el mundo del manga y los cómics.
+Nuestra colección está seleccionada con pasión para traer a tu espacio esa magia y estilo únicos que solo los mangas pueden ofrecer.
+Ya sea que busques darle vida y color a tu habitación, encontrar el regalo perfecto para un fanático, o simplemente sumergirte en historias y personajes que inspiran, en AngiMANGA tenemos el toque perfecto de manga para ti.</p>
+            <a href="#mangas" class="boton">VER MANGAS</a>
+        </div>
+    </section>
+
+    <section id="mangas" class="Mangas">
+        <div>
+            <p>🏆 Top Rankings</p>
+        <h2>Mangas <em>Destacados</em></h2>
+        <p>Navega aqui</p>
+
+        <div id="carrusel">
+      <button id="flechaAnterior" aria-label="Anterior">&#8592;</button>
+      <div id="pistaTarjetas"></div>
+      <button id="flechaSiguiente" aria-label="Siguiente">&#8594;</button>
+    </div>
+
+        <div id="puntos"></div>
+        </div>
+
+    </section>
+
+    <section id="recomendaciones" class="Recomendaciones">
+       <p>✨ Para ti</p>
+    <h2>¿Qué tipo de anime <em>te gusta?</em></h2>
+    <p>Selecciona un género y te recomendamos lo mejor</p>
+
+    <div id="filtros"></div>
+    <div id="gridRecomendaciones"></div>
+
+    </section>
+
+    <section id="comics" class="Comics">
+    <div>
+        <p>🦸 Comics</p>
+        <h2>Comics <em>Destacados</em></h2>
+        <p>Navega aqui</p>
+
+        <div id="carruselComics">
+            <button id="flechaAnteriorComics" aria-label="Anterior">&#8592;</button>
+            <div id="pistaTarjetasComics"></div>
+            <button id="flechaSiguienteComics" aria-label="Siguiente">&#8594;</button>
+        </div>
+
+        <div id="puntosComics"></div>
+    </div>
+</section>
+
+    <section id="noticias" class="noticias">
+        <p>📰 Actualidad</p>
+    <h2>Noticias <em>Recientes</em></h2>
+    <p>Lo último del mundo del anime y manga</p>
+    <div id="gridNoticias"></div>
+
+    </section>
+
+    <section id="comentarios" class="comentarios">
+        <p>💬 Comunidad</p>
+  <h2>Deja tu <em>comentario</em></h2>
+  <p>¿Qué manga estás leyendo? Cuéntanos</p>
+
+  <form id="formularioComentario">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="text" name="manga" placeholder="¿De qué manga hablas?">
+    <textarea name="comentario" placeholder="Escribe tu comentario aquí..." rows="4" required></textarea>
+    <button type="submit">Publicar comentario</button>
+  </form>
+
+  <div id="listaComentarios"></div>
+
+    </section>
+    <section id="soporte" class="soporte">
+        <p>🛒 Atención al cliente</p>
+        <h2>¿Necesitas <em>ayuda?</em></h2>
+        <p>Completa el formulario y te respondemos a la brevedad</p>
+
+        <form id="formularioSoporte">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="correo" placeholder="Tu correo electrónico" required>
+            <select name="motivo" required>
+                <option value="" disabled selected>Motivo de contacto</option>
+                <option value="pedido">Consulta sobre un pedido</option>
+                <option value="envio">Información de envío</option>
+                <option value="devolucion">Devolución o cambio</option>
+                <option value="producto">Consulta sobre un producto</option>
+                <option value="otro">Otro</option>
+            </select>
+            <textarea name="mensaje" placeholder="Describe tu consulta..." rows="4" required></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+
+        <div id="confirmacionSoporte"></div>
+    </section>
+    <footer>
+        <div>
+      <h4>Síguenos</h4>
+      <ul>
+        <li><a href="https://x.com/AngiMangaW">Twitter / X</a></li>
+        <li><a href="https://www.instagram.com/angi_manga?igsh=MWwwYXBqdHpsZDV6Mw==">Instagram</a></li>
+        <li><a href="https://youtube.com/@angi_manga?si=_LkQ9cvGXzW7sIRN">YouTube</a></li>
+      </ul>
+    </div>
+    <div class="info">
+            <h4>Contáctanos</h4>
+        <p>📱 462-149-6898</p>
+        <p>✉ angimangaweb@gmail.com</p>
+
+    </div>
+    <p class="copyright">
+         © 2026 AngiMANGA – Todos los derechos reservados
+    </p>
+    </footer>
+    <script src="selector.js"></script>
+</body>
+</html>
